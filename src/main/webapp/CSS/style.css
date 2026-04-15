@@ -1,0 +1,223 @@
+/* ===== Base ===== */
+/* ===== Base ===== */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+
+    /* 🌤 Very light blue background */
+    background: linear-gradient(to bottom, #eef6ff, #f8fbff);
+}
+
+/* ===== Navbar ===== */
+.navbar {
+    background: #3b82f6;
+    padding: 15px 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Title */
+.nav-title {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Nav links */
+.nav-links a {
+    margin-left: 10px;
+    padding: 6px 12px;
+    background: rgba(255,255,255,0.2);
+    color: white;
+    border-radius: 6px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    background: rgba(255,255,255,0.35);
+}
+
+/* ===== Container ===== */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+/* ===== Card ===== */
+.card {
+    background: #f8fbff;  /* soft blue-white */
+    padding: 25px;
+    border-radius: 14px;
+
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+/* ===== Heading ===== */
+h2 {
+    color: #1e3a8a;
+}
+
+/* ===== Inputs ===== */
+input {
+    width: 250px;
+    padding: 10px;
+    margin: 10px 5px;
+    border: 1px solid #93c5fd;
+    border-radius: 8px;
+}
+
+/* ===== Buttons ===== */
+button {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+
+    background: #3b82f6;
+    color: white;
+}
+
+button:hover {
+    background: #2563eb;
+}
+
+/* ===== Links as buttons ===== */
+a {
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 8px;
+    margin: 5px;
+    display: inline-block;
+    font-size: 14px;
+    color: white;
+}
+
+/* Button colors */
+.primary { background: #3b82f6; }
+.success { background: #22c55e; }
+.warning { background: #facc15; color: black; }
+.danger  { background: #ef4444; }
+
+/* ===== Table ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Header */
+th {
+    background: #3b82f6;
+    color: white;
+    padding: 12px;
+}
+
+/* Rows */
+td {
+    padding: 12px;
+    background: #f1f7ff;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+/* Hover */
+tr:hover td {
+    background: #e0efff;
+}
+
+.navbar {
+    background: #3b82f6;
+    padding: 15px 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.nav-links a {
+    margin-left: 10px;
+    padding: 6px 12px;
+    background: rgba(255,255,255,0.2);
+    color: white;
+    border-radius: 6px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
+/* Base nav links */
+.nav-links a {
+    margin-left: 10px;
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+}
+
+/* Home */
+.nav-home {
+    background: rgba(255,255,255,0.2);
+}
+
+/* View */
+.nav-view {
+    background: #22c55e;   /* green */
+}
+
+/* Add */
+.nav-add {
+    background: #facc15;   /* yellow */
+    color: black;
+}
+
+/* Hover effects */
+.nav-home:hover {
+    background: rgba(255,255,255,0.35);
+}
+
+.nav-view:hover {
+    background: #16a34a;
+}
+
+.nav-add:hover {
+    background: #eab308;
+}
+
+.nav-links a {
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
+
+/* Fix card buttons */
+.card a {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.warning {
+    background: #facc15;
+    color: black;
+    padding: 6px 10px;
+    border-radius: 6px;
+}
+
+.danger {
+    background: #ef4444;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+}
+
